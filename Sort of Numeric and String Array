@@ -1,0 +1,16 @@
+//Write a Java program to sort a numeric array and a string array.
+
+import java.util.Arrays; 
+
+public class Main {
+  public static void main(String[] args) {
+  // Give random numberic array
+  int[] arrInt = {4, 1, 5, 6, 3 };
+  String[] myArray = {"java", "is", "a", "difficult"}; 
+  Arrays.sort(arrInt);
+  System.out.println("Numeric Sort Array: "+ Arrays.toString(arrInt));
+  Arrays.sort(myArray);
+  System.out.println("String Sort Array: "+ Arrays.toString(myArray));
+    
+  }
+ }
